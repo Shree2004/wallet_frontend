@@ -1,0 +1,253 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.login-body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg,#5f72be,#9b23ea);
+}
+
+
+/* WALLET CONTAINER */
+
+.container{
+width:750px;
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 15px 40px rgba(0,0,0,0.2);
+}
+
+h1{
+text-align:center;
+margin-bottom:20px;
+color:#333;
+}
+
+/* BALANCE CARD */
+
+.balance-card{
+background:#f4f6ff;
+padding:15px;
+border-radius:8px;
+text-align:center;
+margin-bottom:25px;
+}
+
+.balance-card p{
+color:#666;
+font-size:14px;
+}
+
+.balance-card h2{
+color:#2e7d32;
+font-size:30px;
+margin-top:5px;
+}
+
+/* GRID */
+
+.grid{
+display:flex;
+gap:25px;
+}
+
+.card{
+flex:1;
+background:#fafafa;
+padding:20px;
+border-radius:8px;
+}
+
+.card h3{
+margin-top:10px;
+margin-bottom:10px;
+color:#444;
+}
+
+.card label{
+display:block;
+margin-top:10px;
+font-size:13px;
+color:#555;
+margin-bottom:4px;
+}
+
+/* INPUT */
+
+input{
+width:100%;
+padding:10px;
+margin-top:5px;
+margin-bottom:10px;
+border:1px solid #ccc;
+border-radius:6px;
+font-size:14px;
+}
+
+/* BUTTON */
+
+button{
+width:100%;
+padding:10px;
+border:none;
+border-radius:6px;
+font-size:14px;
+font-weight:bold;
+cursor:pointer;
+color:white;
+transition:0.2s;
+}
+
+/* DEPOSIT BUTTON */
+
+.deposit-btn{
+background:#4CAF50;
+}
+
+.deposit-btn:hover{
+opacity:0.9;
+}
+
+/* WITHDRAW BUTTON */
+
+.withdraw-btn{
+background:#FF9800;
+}
+
+.withdraw-btn:hover{
+opacity:0.9;
+}
+
+/* TRANSFER BUTTON */
+
+.transfer-btn{
+background:#2196F3;
+}
+
+.transfer-btn:hover{
+opacity:0.9;
+}
+
+/* LOGOUT BUTTON */
+
+.logout-btn{
+background:#F44336;
+margin-top:10px;
+}
+
+.logout-btn:hover{
+opacity:0.9;
+}
+
+/* LOGIN PAGE */
+
+.login-card{
+width:350px;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+.login-card h2{
+margin-bottom:20px;
+}
+
+.login-card input{
+width:100%;
+padding:12px;
+margin-bottom:12px;
+border:1px solid #ccc;
+border-radius:6px;
+font-size:14px;
+}
+
+.login-btn{
+width:100%;
+padding:12px;
+background:#2196F3;
+border:none;
+border-radius:6px;
+color:white;
+font-size:15px;
+font-weight:bold;
+cursor:pointer;
+transition:0.2s;
+}
+
+.login-btn:hover{
+opacity:0.9;
+}
+
+.login-card a{
+display:block;
+margin-top:10px;
+font-size:14px;
+color:#6a1b9a;
+text-decoration:none;
+}
+
+.login-card a:hover{
+text-decoration:underline;
+}
+
+/* REGISTER PAGE */
+
+.register-card{
+width:350px;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+.register-card h2{
+margin-bottom:20px;
+}
+
+.register-card input{
+width:100%;
+padding:12px;
+margin-bottom:12px;
+border:1px solid #ccc;
+border-radius:6px;
+font-size:14px;
+}
+
+.register-btn{
+width:100%;
+padding:12px;
+background:#4CAF50;
+border:none;
+border-radius:6px;
+color:white;
+font-size:15px;
+font-weight:bold;
+cursor:pointer;
+transition:0.2s;
+}
+
+.register-btn:hover{
+opacity:0.9;
+}
+
+.register-card a{
+display:block;
+margin-top:10px;
+font-size:14px;
+color:#6a1b9a;
+text-decoration:none;
+}
+
+.register-card a:hover{
+text-decoration:underline;
+}
